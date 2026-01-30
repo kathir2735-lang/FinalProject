@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML TABLE</title>
+  </head>
+  <body>
+    <table border="5" cellpadding="10" cellspacing="10">
+      <tr>
+        <th>Name</th>
+        <th>Language</th>
+        <th>Year</th>
+      </tr>
+      <tr>
+        <td>James</td>
+        <td>Java</td>
+        <td>1991</td>
+      </tr>
+      <tr>
+        <td>Gudio</td>
+        <td>Python</td>
+        <td>1992</td>
+      </tr>
+      <tr>
+        <td>Dennies</td>
+        <td>C</td>
+        <td>1972</td>
+      </tr>
+    </table>
+    <br />
+
+    <table border="5" cellpadding="10" cellspacing="10">
+      <tr>
+        <th>Name</th>
+        <th colspan="3">Skills</th>
+      </tr>
+      <tr>
+        <td>James</td>
+        <td>C</td>
+        <td>Java</td>
+        <td>HTML</td>
+      </tr>
+      <tr>
+        <td>Guido</td>
+        <td>C++</td>
+        <td>Python</td>
+        <td>PHP</td>
+      </tr>
+    </table>
+    <br /><br /><br />
+
+    <table border="5" cellpadding="10" cellspacing="10">
+      <tr>
+        <td>Name</td>
+        <td>Companies</td>
+      </tr>
+      <tr>
+        <td rowspan="3">James</td>
+        <td>Sun Microsystem</td>
+      </tr>
+
+      <tr>
+        <td>Oracle</td>
+      </tr>
+      <tr>
+        <td>Liquid Robotics</td>
+      </tr>
+      <tr>
+        <td rowspan="3">Guido</td>
+        <td>Google</td>
+      </tr>
+      <tr>
+        <td>DropBox</td>
+      </tr>
+      <tr>
+        <td>MicroSoft</td>
+      </tr>
+    </table>
+    <br /><br /><br />
+
+    <table border="3" cellpadding="10" cellspacing="10">
+      <thead>
+        <caption>TIME TABLE-TAPACADEMY</caption>
+      </thead>
+      <tr style="background-color: aqua">
+        <th>Day</th>
+        <th>9-10AM</th>
+        <th>10-11AM</th>
+        <th>11-12AM</th>
+        <th>12-1PM</th>
+        <th>1PM-2PM</th>
+      </tr>
+
+      <tr>
+        <td>Monday</td>
+        <td>MySql</td>
+        <td>Java</td>
+        <td>SoftSkill</td>
+        <td rowspan="5">LunchBreak</td>
+        <td>Mock</td>
+      </tr>
+
+      <tr>
+        <td>TuesDay</td>
+        <td colspan="2">ProjectClass</td>
+        <td>Programming</td>
+        <td>Css</td>
+      </tr>
+      <tr>
+        <td>WednesDay</td>
+        <td>HTML</td>
+        <td>Python</td>
+        <td>DSA</td>
+        <td rowspan="2">FroentEndProjects</td>
+      </tr>
+      <tr>
+        <td>TuesDay</td>
+        <td>Java</td>
+        <td colspan="2">React.Js</td>
+      </tr>
+      <tr>
+        <td>Friday</td>
+        <td>Programming</td>
+        <td>Java</td>
+        <td>Dsa</td>
+        <td>Javascript</td>
+      </tr>
+      <tfoot style="background-color: darkgoldenrod">
+        <tr>
+          <td style="text-align: center" colspan="6">Saturday Is Holiday</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
